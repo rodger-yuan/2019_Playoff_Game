@@ -11,7 +11,7 @@ $( document ).ready(function() {
 	var url2 = "https://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=Totals&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2018-19&SeasonSegment=&SeasonType=Playoffs&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight=&callback=?"
 
 	var rodger_players = ["Stephen Curry", "Klay Thompson", "Nikola Jokic", "Khris Middleton", "Paul George", "Kyle Lowry", "Serge Ibaka", "Nikola Mirotic", "Marc Gasol", "Giannis Antetokounmpo"]
-	var jimmy_players = ["James Harden", "Kevin Durant", "Pascal Siakam", "Demarcus Cousins", "Kyrie Irving", "Eric Bledsoe", "Joel Embiid", "Russell Westbrook", "Fred Van Vleet", "Kawhi Leonard"]
+	var jimmy_players = ["James Harden", "Kevin Durant", "Pascal Siakam", "DeMarcus Cousins", "Kyrie Irving", "Eric Bledsoe", "Joel Embiid", "Russell Westbrook", "Fred VanVleet", "Kawhi Leonard"]
 	class Player {
 		constructor(name) {
 			this._name = name;
